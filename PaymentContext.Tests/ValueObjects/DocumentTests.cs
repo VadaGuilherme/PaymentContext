@@ -5,7 +5,7 @@ using PaymentContext.Domain.ValueObjects;
 namespace PaymentContext.Tests
 {
     [TestClass]
-    public class StudentTests
+    public class DocumentTests
     {
         [TestMethod]
         public void AdicionarAssinatura()
