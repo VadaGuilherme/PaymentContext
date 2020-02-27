@@ -1,5 +1,3 @@
-using PaymentContext.Domain.Entity;
-using PaymentContext.Domain.Repositories;
 using PaymentContext.Domain.Services;
 
 namespace PaymentContext.Tests.Mocks
