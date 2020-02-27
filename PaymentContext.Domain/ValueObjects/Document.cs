@@ -23,10 +23,14 @@ namespace PaymentContext.Domain.ValueObjects
         private bool Validate()
         {
             if(Type == EnumDocumentType.CNPJ && Number.Length == 14)
+            {
                 return true;
+            }
 
             if(Type == EnumDocumentType.CPF && Number.Length == 11)
+            {
                 return true;
+            }
 
             return false;
         }
